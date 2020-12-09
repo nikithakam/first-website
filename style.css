@@ -1,0 +1,62 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: rgb(86, 92, 91);
+ background: #C9D6FF;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.card {
+  border: 4px solid rgba(250, 128, 114, 0.61);
+  padding: 16px;
+  box-shadow: 4px 4px rgb(85, 177, 238);
+  border-radius: 8px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+a {
+  color:blue;
+  text-decoration: none;
+}
+
+#linkedin {
+  color: #0e76a8;
+}
+
+#instagram {
+  color: rgb(185, 123, 185);
+}
+
+.dark {
+  background: black;
+  color: rgb(233, 221, 221);
+}
+
+.dark > .card > a {
+  color: #C9D6FF;
+}
+
+.socials {
+  padding: 16px 0px;
+}
+
+.form {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  border: 2px solid #0e76a8;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
